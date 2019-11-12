@@ -1,0 +1,24 @@
+<html>
+    <title>
+
+    </title>
+    
+    <head>
+        <link rel="stylesheet" href="./css/style.css"></link>
+    </head>
+    <body>       
+        <button class="styled-button" onclick='removeMirror(); toStartPosition()'>
+            В центр
+        </button>
+        <button class="styled-button" onclick='changeUnit(); notification()'>
+            Поменять игрока
+        </button>
+        <div id="gameField">
+            <div id="unit" class="cat-image">
+                <img id="image" src="./img/Novosel_mushroom.png"></img>
+            </div>
+        </div>
+        <div id="notification" hidden onclick="hideNotification()"></div>
+    </body>
+    <script src="./js/main.js"></script>
+</html>

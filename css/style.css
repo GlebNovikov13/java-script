@@ -1,0 +1,64 @@
+.styled-button {
+    background-color: rgba(255, 136, 0, 0.897);
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.styled-button:hover {
+    background-color: #99b811;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#gameField {
+    position: relative;
+    border: 2px solid #000000;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+.cat-image {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    height: 50px;
+    width: 50px;
+    /*transform: rotateZ(100deg);*/
+}
+
+#image {
+    width: inherit;
+    height: inherit;
+}
+
+.mirror-image {
+    transform: scale(-1, 1);
+}
+
+#notification {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    padding: 20px;
+    background: #685be0;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.wall {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: #000000;
+}
